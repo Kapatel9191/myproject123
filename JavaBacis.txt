@@ -1,0 +1,271 @@
+
+
+https://www.youtube.com/watch?v=Imy9TEJkKa8
+
+
+OOP's= Object oriented programming system/structure.
+OOP is a programming paradigm/methodology
+Paradigm: Is a way or style. eg:different way's to earn money
+Types of paradigm
+oop paradigm=
+procedural paradigm 
+fuctional paradigm
+logical paradigm
+structural paradigm
+
+==> 6 pillors of OOP's are=
+Class
+Objects and Methods
+Inheritance
+Polymorphism
+Abstraction
+Encapsulation
+
+1)Class-
+class is the collection of objects.
+class is not a real world entity.It is just a template or blueprint or prototype
+class does not occupy memory.
+Syntax= 
+
+acces-modifier Class ClassName
+{
+-Methods
+-Constructor
+-Fields
+-Blocks
+-Nested class
+}
+
+2) Methods- A set of codes which perform a perticular task.
+Advantages- Code reusability
+          - Code optimisation
+
+Syntax=
+acces-modifier return-type methodName(List of parameters)
+
+
+3)Objects- Object is an instance of class.
+         - Object is real world entity.
+         - Object occupies memory.
+
+Object consist of -
+Identity: Name
+State/Attribute: Breed/color/age
+Behavior: Eat/Run/Bark
+
+How to create an Object in java:
+
+-new keyword<==
+-newinstance()method
+-clone()method
+-deserialisation()method
+-factory ()method
+Steps = 
+Declaration = Animation buzo;
+Instantiation = buzo=new
+Initialisation = buzo=new Animal();
+
+Syntax: Animal buzo=new Animal();
+
+        buzo.run();
+
+Program=
+
+class Animal
+{
+    Public void eat()
+ {
+    system.out.println("I am eating");
+}
+    public sttic void main(string[] args)
+{
+ system.out.println("1");
+ Animal buzo=new Animal();
+ buzo.eat(); 
+}
+}
+
+
+==============================================================================================================================================
+JAVA course by Pawan sir
+Java Full Course for Beginners Part-1
+https://www.youtube.com/watch?v=_3ds4qujpxU&t=14s 
+Variables= Container which holds the value => int x=10; x is variable the the value is 10
+int x; //Declaration
+x=10; //Initialzation
+also combine this state = int x=10;
+
+Data types= int, char, double, float boolen
+1) Premitive data type
+int, double, char, boolean
+short, float...
+
+
+
+2) Dervied daa type
+Array, Arraylist, Sring, Hashmap etc....
+
+
+Operator
+AO / = + * %
+RO < > <= >= !=
+LO && || ==
+AO =
+
+Java control statements
+Conditional statements(selection statements)
+If...else
+syntax:
+if(codition)
+{
+//statements
+}
+else
+{
+//statements
+}
+
+Nested if...else
+syntax:
+if(condiotion1)
+{
+statements;
+}
+else if(condition2)
+{
+statements;
+}
+else if(condition3)
+{
+statements;
+}
+else
+{
+statements;
+}
+
+Switch Case:
+Syntax:
+
+switch(expression)
+
+{
+case <condition1>: statements; break;
+case <condition2>: statements; break;
+case <condition3>: statements; break;
+---
+---
+---
+default: statements;
+}
+
+
+Loop Statements=>
+
+Loop is set of statement/s can be repeated multiple times based on a condition..
+
+while==>
+syntax:
+while(condition)
+{
+statements;
+}
+
+do..while==>
+syntax:
+do
+{
+}while(statements);
+
+For loop==>
+syntax:
+for(inittilisation;condition; inc/decre)
+{
+statments;
+}
+
+
+Jump statements:
+break;
+		/*for(int i=1; i<=10; i++)
+		{
+			if(i==6)
+			{
+				break;
+			}
+			
+			System.out.println(i);
+		}*/
+		===========
+
+continue;
+		for(int i=1; i<=10; i++)
+		{
+			if(i==2 || i==4 || i==6)
+			{
+				continue;
+			}
+
+====================================================================================================
+
+Java Arrays & Strings -
+
+Array is a collection of elements of same data types-
+Syntanx:
+int a[]=new int[5];
+
+2 types of array -
+
+1) Single diemntional array
+
+a.Declare an array
+b.insert values into array
+c.find size of an aarray
+d.read values from an array
+
+classic For Loop=
+syntax:
+for(inittilisation;condition; inc/decre)
+
+Advanced For Loop/Enhanced for loop/for each loop - use for array,hashmaP ETC...
+---------------------------------------------------
+syntax:
+for(initialization)
+{
+statements;
+}
+
+2. Two/multiple dimentional array
+
+a.Declare an array
+b.insert values into array
+c.find size of an aarray(rows,column)
+d.read values from an array
+
+int a[][]=new int[3][2]; // 3--> rows  2--> columns
+
+==========================================
+String=
+
+String is a collection of charecters
+
+String s="Welcome"
+
+String methods:
+1) s.length()
+
+String s="Welcome"  =>   s.length() ==> 7
+
+2) s.concat()
+
+String s="Welcome"    ==>  s.concat(s1) ==> Welocme To Java
+String s1="To Java"   ==>
+
+3) s.trim()
+
+String s=" Welcome " ==> s.trim() ==> "Welcome"==> Welcome
+
+
+
+
+

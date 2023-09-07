@@ -1,0 +1,11 @@
+git status
+
+first line i a text
+clear
+exit
+quit
+$ cat >b.text
+first line in b text
+$git add .
+$d
+$git status
