@@ -265,7 +265,7 @@ String s1="To Java"   ==>
 
 String s=" Welcome " ==> s.trim() ==> "Welcome"==> Welcome
 
-
+hey
 
 
 
